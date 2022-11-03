@@ -4,7 +4,7 @@ import { LanguageSwitcher } from "./components/LanguageSwitcher";
 import { Faq } from "./components/Faq";
 
 function App() {
-  const { t } = useTranslation();
+  const { t } = useTranslation("greeting");
 
   return (
     <div className="App">

@@ -12,7 +12,7 @@ export const Faq: FC = () => {
       <h3>{t("title")}</h3>
       {Array.isArray(items)
         ? items.map((item) => (
-            <div>
+            <div key={item.question}>
               <p>{item.question}</p>
               <p>{item.answer}</p>
             </div>
