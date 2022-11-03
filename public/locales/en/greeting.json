@@ -1,0 +1,5 @@
+{
+  "title": "Welcome {{name}}!",
+  "subtitle": "It's nice to see you :)",
+  "button": "show FAQ"
+}

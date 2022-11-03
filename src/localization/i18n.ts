@@ -1,21 +1,19 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import de from "./de";
-import en from "./en";
-import pl from "./pl";
+import Backend from "i18next-http-backend";
 
-const resources = {
-  pl,
-  en,
-  de,
-};
-
-i18n.use(initReactI18next).init({
-  resources,
-  lng: "pl",
-  interpolation: {
-    escapeValue: false,
-  },
-});
+i18n
+  .use(initReactI18next)
+  .use(Backend)
+  .init({
+    lng: "pl",
+    interpolation: {
+      escapeValue: false,
+    },
+    ns: ["faq"],
+    backend: {
+      loadPath: "/locales/{{lng}}/{{ns}}.json",
+    },
+  });
 
 export default i18n;

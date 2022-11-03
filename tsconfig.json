@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "public/locales/de", "public/locales/en", "public/locales/pl"  ]
 }
