@@ -19,7 +19,7 @@ export const LanguageSwitcher: FC = () => {
   };
 
   return (
-    <select onChange={handleLanguageChange}>
+    <select onChange={handleLanguageChange} defaultValue={i18n.language}>
       {supportedLanguages.map(({ label, value }) => (
         <option value={value} key={value}>
           {label}
