@@ -1,0 +1,13 @@
+{
+  "title": "Najczęściej zadawane pytania",
+  "items": [
+    {
+      "question": "Pytanie 1",
+      "answer": "Odpowiedź 1"
+    },
+    {
+      "question": "Pytanie 2",
+      "answer": "Odpowiedź 2"
+    }
+  ]
+}

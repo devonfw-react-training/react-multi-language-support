@@ -4,7 +4,7 @@ import { LanguageSwitcher } from "./components/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 
 function App() {
-  const { t } = useTranslation();
+  const { t } = useTranslation("greeting");
 
   return (
     <>
