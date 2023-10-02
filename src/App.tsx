@@ -9,8 +9,9 @@ function App() {
   return (
     <>
       <LanguageSwitcher />
-      <h1>{t("title", { name: "Jan" })}</h1>
+      <h1>{t("title", { name: "Jacek" })}</h1>
       <h3>{t("subtitle")}</h3>
+      <p>{t("messages", { count: 0 })}</p>
       <Faq />
     </>
   );
