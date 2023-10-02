@@ -6,6 +6,7 @@ const resources = {
     translation: {
       title: "Witaj {{name}}!",
       subtitle: "Miło Cię widzieć",
+      date: "Dziś jest {{date, datetime}}",
       messages_zero: "Nie masz żadnych wiadomości",
       messages_one: "Masz jedną wiadomość",
       messages_few: "Masz {{count}} wiadomości",
@@ -29,6 +30,7 @@ const resources = {
     translation: {
       title: "Hello {{name}}!",
       subtitle: "It's nice to see you",
+      date: "It's {{date, datetime}}",
       messages_zero: "You have no messages",
       messages_one: "You have 1 message",
       messages_other: "You have {{count}} messages",
@@ -45,6 +47,11 @@ const resources = {
           answer: "Answer 2",
         },
       ],
+    },
+  },
+  "en-GB": {
+    translation: {
+      title: "Welcome {{name}}!",
     },
   },
 };

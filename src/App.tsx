@@ -11,6 +11,7 @@ function App() {
       <LanguageSwitcher />
       <h1>{t("title", { name: "Jacek" })}</h1>
       <h3>{t("subtitle")}</h3>
+      <p>{t("date", { date: new Date() })}</p>
       <p>{t("messages", { count: 0 })}</p>
       <Faq />
     </>
