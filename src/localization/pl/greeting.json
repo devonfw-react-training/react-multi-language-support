@@ -1,4 +1,8 @@
 {
   "title": "Witaj {{name}}!",
-  "subtitle": "Miło Cię widzieć"
+  "subtitle": "Miło Cię widzieć",
+  "messages_zero": "Nie masz żadnych wiadomości",
+  "messages_one": "Masz jedną wiadomość",
+  "messages_few": "Masz {{count}} wiadomości",
+  "messages_many": "Masz dużo wiadomości"
 }

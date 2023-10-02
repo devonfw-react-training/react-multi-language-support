@@ -1,4 +1,7 @@
 {
   "title": "Hello {{name}}!",
-  "subtitle": "It's nice to see you"
+  "subtitle": "It's nice to see you",
+  "messages_zero": "You have no messages",
+  "messages_one": "You have 1 message",
+  "messages_other": "You have {{count}} messages"
 }
