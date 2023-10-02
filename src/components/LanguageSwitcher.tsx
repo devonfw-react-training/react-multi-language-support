@@ -8,7 +8,8 @@ type SelectOption = {
 
 const supportedLanguages: SelectOption[] = [
   { label: "PL", value: "pl" },
-  { label: "EN", value: "en" },
+  { label: "EN-US", value: "en" },
+  { label: "EN-GB", value: "en-GB" },
 ];
 
 export const LanguageSwitcher: FC = () => {
