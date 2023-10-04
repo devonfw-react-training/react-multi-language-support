@@ -8,7 +8,13 @@ i18n
   .use(LanguageDetector)
   .use(Backend)
   .init({
-    backend: { loadPath: "/locales/{{lng}}/{{ns}}.json" },
+    backend: {
+      loadPath: "http://localhost:1337/api/{{ns}}?locale={{lng}}&populate=*",
+      parse: (data: string) => JSON.parse(data).data.attributes,
+      customHeaders: {
+        Authorization: `Bearer ${import.meta.env.VITE_HCMS_TOKEN}`,
+      },
+    },
     interpolation: {
       escapeValue: false,
     },
